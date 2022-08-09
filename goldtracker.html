@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Gold Dashboard</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/modern-business.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+	
+	<!-- Datatable CSS -->
+	<link href="css/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="css/buttons.bootstrap4.min.css" rel="stylesheet">
+	<link href="css/responsive.bootstrap4.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="home.html">Website Logo</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="services.html">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="faq.html">FAQ</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Programs
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+							<a class="dropdown-item" href="goldtracker.html">Gold Price</a>
+							<a class="dropdown-item" href="datatable.html">Data Table</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Page Content -->
+	<div class="row">
+		<div class="col-4 cart-total">
+			<div class="dfx-widget  dfx-tradingViewWidget jsdfx-instrumentDetailTradingViewSwitchableWidget mt-3 dfx-tradingViewSwitchable ">
+				<h2 class="dfx-widget__heading font-weight-bold h5 text-black text-uppercase">XAU/USD Chart Simple</h2>
+				<div class="dfx-widget__content ">
+					<div class="jsdfx-tradingViewSwitchableWidget__blockWrap dfx-tradingViewSwitchable__container" style="min-height: 400px;">
+						<div class="dfx-tradingViewSwitchable__widgetWrapper jsdfx-tradingViewSwitchableWidget__showOnMini" id="tradingViewSimpleWidgetXAUUSD">
+							<div style="width: 100%; height: 400px;">
+								<style>
+									.tradingview-widget-copyright {
+										font-size: 13px !important;
+										line-height: 32px !important;
+										text-align: center !important;
+										vertical-align: middle !important;
+										font-family: 'Trebuchet MS', Arial, sans-serif !important;
+										color: #9db2bd !important;
+									}
+									.tradingview-widget-copyright .blue-text {
+										color: #2196f3 !important;
+									}
+									.tradingview-widget-copyright a {
+										text-decoration: none !important;
+										color: #9db2bd !important;
+									}
+									.tradingview-widget-copyright a:visited {
+										color: #9db2bd !important;
+									}
+									.tradingview-widget-copyright a:hover .blue-text {
+										color: #38acdb !important;
+									}
+									.tradingview-widget-copyright a:active .blue-text {
+										color: #299dcd !important;
+									}
+									.tradingview-widget-copyright a:visited .blue-text {
+										color: #2196f3 !important;
+									}
+								</style>
+								<iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/mini-symbol-overview/?locale=en#%7B%22width%22%3A%22100%25%22%2C%22height%22%3A400%2C%22autosize%22%3Atrue%2C%22symbol%22%3A%22FX_IDC%3AXAUUSD%22%2C%22dateRange%22%3A%2212m%22%2C%22colorTheme%22%3A%22light%22%2C%22trendLineColor%22%3A%22%231A9DE7%22%2C%22underLineColor%22%3A%22%23E4EFF4%22%2C%22largeChartUrl%22%3A%22https%3A%2F%2Fwww.dailyfx.com%2Fgold-price%22%2C%22utm_source%22%3A%22www.dailyfx.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22mini-symbol-overview%22%7D" style="box-sizing: border-box; height: 400px; width: 100%;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-8">
+			<div class="dfx-widget  dfx-tradingViewWidget jsdfx-instrumentDetailTradingViewSwitchableWidget mt-3 dfx-tradingViewSwitchable ">
+				<h2 class="dfx-widget__heading font-weight-bold h5 text-black text-uppercase">XAU/USD Chart Technical</h2>
+				<div class="dfx-widget__content ">
+					<div class="jsdfx-tradingViewSwitchableWidget__blockWrap dfx-tradingViewSwitchable__container" style="min-height: 400px;">
+						<div class="dfx-tradingViewSwitchable__widgetWrapper jsdfx-tradingViewSwitchableWidget__showOnMini invisible" id="tradingViewSimpleWidgetXAUUSD"></div>
+						<div class="dfx-tradingViewSwitchable__widgetWrapper jsdfx-tradingViewSwitchableWidget__showOnFull" id="tradingViewWidgetXAUUSD">
+							<div id="tradingview_09c41-wrapper" style="position: relative;box-sizing: content-box;width: 100%;height: 400px;margin: 0 auto !important;padding: 0 !important;font-family:Arial,sans-serif;">
+								<div style="width: 100%;height: 400px;background: transparent;padding: 0 !important;"><iframe id="tradingview_09c41" src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_09c41&amp;symbol=FX_IDC%3AXAUUSD&amp;interval=D&amp;hidesidetoolbar=0&amp;symboledit=1&amp;saveimage=1&amp;toolbarbg=EEEFF0&amp;studies=%5B%5D&amp;hideideas=1&amp;theme=Light&amp;timezone=exchange&amp;showpopupbutton=1&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;showpopupbutton=1&amp;locale=en&amp;utm_source=www.dailyfx.com&amp;utm_medium=widget&amp;utm_campaign=chart&amp;utm_term=FX_IDC%3AXAUUSD" style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Financial Markets</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "light",
+  "dateRange": "12M",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "width": "400",
+  "height": "660",
+  "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
+  "plotLineColorFalling": "rgba(33, 150, 243, 1)",
+  "gridLineColor": "rgba(240, 243, 250, 1)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "FOREXCOM:SPXUSD",
+          "d": "S&P 500"
+        },
+        {
+          "s": "FOREXCOM:NSXUSD",
+          "d": "Nasdaq 100"
+        },
+        {
+          "s": "FOREXCOM:DJI",
+          "d": "Dow 30"
+        },
+        {
+          "s": "INDEX:NKY",
+          "d": "Nikkei 225"
+        },
+        {
+          "s": "INDEX:DEU30",
+          "d": "DAX Index"
+        },
+        {
+          "s": "FOREXCOM:UKXGBP",
+          "d": "FTSE 100"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Commodities",
+      "symbols": [
+        {
+          "s": "CME_MINI:ES1!",
+          "d": "S&P 500"
+        },
+        {
+          "s": "CME:6E1!",
+          "d": "Euro"
+        },
+        {
+          "s": "COMEX:GC1!",
+          "d": "Gold"
+        },
+        {
+          "s": "NYMEX:CL1!",
+          "d": "Crude Oil"
+        },
+        {
+          "s": "NYMEX:NG1!",
+          "d": "Natural Gas"
+        },
+        {
+          "s": "CBOT:ZC1!",
+          "d": "Corn"
+        }
+      ],
+      "originalTitle": "Commodities"
+    },
+    {
+      "title": "Bonds",
+      "symbols": [
+        {
+          "s": "CME:GE1!",
+          "d": "Eurodollar"
+        },
+        {
+          "s": "CBOT:ZB1!",
+          "d": "T-Bond"
+        },
+        {
+          "s": "CBOT:UB1!",
+          "d": "Ultra T-Bond"
+        },
+        {
+          "s": "EUREX:FGBL1!",
+          "d": "Euro Bund"
+        },
+        {
+          "s": "EUREX:FBTP1!",
+          "d": "Euro BTP"
+        },
+        {
+          "s": "EUREX:FGBM1!",
+          "d": "Euro BOBL"
+        }
+      ],
+      "originalTitle": "Bonds"
+    },
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "FX:EURUSD"
+        },
+        {
+          "s": "FX:GBPUSD"
+        },
+        {
+          "s": "FX:USDJPY"
+        },
+        {
+          "s": "FX:USDCHF"
+        },
+        {
+          "s": "FX:AUDUSD"
+        },
+        {
+          "s": "FX:USDCAD"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+	<div>
+	 <br><br><br>
+	</div>
+	<!-- Footer -->
+    <footer class="py-5 bg-dark">
+     <div class="container">
+       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+     </div>
+    </footer>
+	
+	<!-- /.container -->
+	
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/jquery-3.5.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<!-- Datatable JavaScript -->
+	<script src="js/jquery.dataTables.min.js"></script>
+	<script src="js/dataTables.bootstrap4.min.js"></script>
+	<script src="js/dataTables.buttons.min.js"></script>
+	<script src="js/buttons.bootstrap4.min.js"></script>
+	<script src="js/jszip.min.js"></script>
+	<script src="js/pdfmake.min.js"></script>
+	<script src="js/vfs_fonts.js"></script>
+	<script src="js/buttons.html5.min.js"></script>
+	<script src="js/buttons.print.min.js"></script>
+	<script src="js/buttons.colVis.min.js"></script>
+	<script src="js/dataTables.fixedHeader.min.js"></script>
+	<script src="js/dataTables.responsive.min.js"></script>
+	<script src="js/dataTables.select.min.js"></script>
+	<script src="js/responsive.bootstrap4.min.js"></script>
+	
+	<!-- other scripts -->
+	<script>
+	$(document).ready(function() {
+		var table = $('#example').DataTable({
+			fixedHeader: true,
+			dom: 'Bfrtip',
+			lengthMenu: [
+				[ 5, 10, 25, 50, -1 ],
+				[ '5 rows', '10 rows', '25 rows', '50 rows', 'Show all' ]
+			],
+			buttons: [ 'copy', 'excel', 'csv', 'pdf','print', 'colvis', 'pageLength' ],
+			pagingType: 'full_numbers',
+		});
+
+		table.buttons().container()
+		.appendTo( '#example_wrapper .col-md-6:eq(0)' );
+	});
+	</script>
+	
+	<!-- https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code -->
+</body>
+</html>
