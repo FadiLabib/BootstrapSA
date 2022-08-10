@@ -1,0 +1,44 @@
+<div class="row">
+		<div class="col-4 cart-total">
+			<div class="dfx-widget  dfx-tradingViewWidget jsdfx-instrumentDetailTradingViewSwitchableWidget mt-3 dfx-tradingViewSwitchable ">
+				<h2 class="dfx-widget__heading font-weight-bold h5 text-black text-uppercase">XAU/USD Chart Simple</h2>
+				<div class="dfx-widget__content ">
+					<div class="jsdfx-tradingViewSwitchableWidget__blockWrap dfx-tradingViewSwitchable__container" style="min-height: 400px;">
+						<div class="dfx-tradingViewSwitchable__widgetWrapper jsdfx-tradingViewSwitchableWidget__showOnMini" id="tradingViewSimpleWidgetXAUUSD">
+							<div style="width: 100%; height: 400px;">
+								<style>
+									.tradingview-widget-copyright {
+										font-size: 13px !important;
+										line-height: 32px !important;
+										text-align: center !important;
+										vertical-align: middle !important;
+										font-family: 'Trebuchet MS', Arial, sans-serif !important;
+										color: #9db2bd !important;
+									}
+									.tradingview-widget-copyright .blue-text {
+										color: #2196f3 !important;
+									}
+									.tradingview-widget-copyright a {
+										text-decoration: none !important;
+										color: #9db2bd !important;
+									}
+									.tradingview-widget-copyright a:visited {
+										color: #9db2bd !important;
+									}
+									.tradingview-widget-copyright a:hover .blue-text {
+										color: #38acdb !important;
+									}
+									.tradingview-widget-copyright a:active .blue-text {
+										color: #299dcd !important;
+									}
+									.tradingview-widget-copyright a:visited .blue-text {
+										color: #2196f3 !important;
+									}
+								</style>
+								<iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/mini-symbol-overview/?locale=en#%7B%22width%22%3A%22100%25%22%2C%22height%22%3A400%2C%22autosize%22%3Atrue%2C%22symbol%22%3A%22FX_IDC%3AXAUUSD%22%2C%22dateRange%22%3A%2212m%22%2C%22colorTheme%22%3A%22light%22%2C%22trendLineColor%22%3A%22%231A9DE7%22%2C%22underLineColor%22%3A%22%23E4EFF4%22%2C%22largeChartUrl%22%3A%22https%3A%2F%2Fwww.dailyfx.com%2Fgold-price%22%2C%22utm_source%22%3A%22www.dailyfx.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22mini-symbol-overview%22%7D" style="box-sizing: border-box; height: 400px; width: 100%;"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

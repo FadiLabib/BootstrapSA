@@ -1,0 +1,18 @@
+		<div class="col-8">
+			<div class="dfx-widget  dfx-tradingViewWidget jsdfx-instrumentDetailTradingViewSwitchableWidget mt-3 dfx-tradingViewSwitchable ">
+				<h2 class="dfx-widget__heading font-weight-bold h5 text-black text-uppercase">XAU/USD Chart Technical</h2>
+				<div class="dfx-widget__content ">
+					<div class="jsdfx-tradingViewSwitchableWidget__blockWrap dfx-tradingViewSwitchable__container" style="min-height: 400px;">
+						<div class="dfx-tradingViewSwitchable__widgetWrapper jsdfx-tradingViewSwitchableWidget__showOnMini invisible" id="tradingViewSimpleWidgetXAUUSD"></div>
+						<div class="dfx-tradingViewSwitchable__widgetWrapper jsdfx-tradingViewSwitchableWidget__showOnFull" id="tradingViewWidgetXAUUSD">
+							<div id="tradingview_09c41-wrapper" style="position: relative;box-sizing: content-box;width: 100%;height: 400px;margin: 0 auto !important;padding: 0 !important;font-family:Arial,sans-serif;">
+								<div style="width: 100%;height: 400px;background: transparent;padding: 0 !important;"><iframe id="tradingview_09c41" src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_09c41&amp;symbol=FX_IDC%3AXAUUSD&amp;interval=D&amp;hidesidetoolbar=0&amp;symboledit=1&amp;saveimage=1&amp;toolbarbg=EEEFF0&amp;studies=%5B%5D&amp;hideideas=1&amp;theme=Light&amp;timezone=exchange&amp;showpopupbutton=1&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;showpopupbutton=1&amp;locale=en&amp;utm_source=www.dailyfx.com&amp;utm_medium=widget&amp;utm_campaign=chart&amp;utm_term=FX_IDC%3AXAUUSD" style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
